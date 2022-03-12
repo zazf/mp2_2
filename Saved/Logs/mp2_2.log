@@ -2102,3 +2102,176 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2022.03.12-04.18.39:993][ 26]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_FloatingIsland_L_Island10)
 [2022.03.12-04.18.41:115][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
 [2022.03.12-04.18.41:536][113]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2022.03.12-04.19.19:772][205]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.03.12-04.19.19:781][205]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.12-04.19.19:782][205]PIE: New page: PIE session: LearningKit_Games_Showcase (2022年3月11日 下午4:19:19)
+[2022.03.12-04.19.19:782][205]LogPlayLevel: Creating play world package: /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2022.03.12-04.19.19:823][205]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041555s)
+[2022.03.12-04.19.19:824][205]LogAIModule: Creating AISystem for world LearningKit_Games_Showcase
+[2022.03.12-04.19.19:825][205]LogPlayLevel: PIE: World Init took: (0.001210s)
+[2022.03.12-04.19.19:825][205]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase to /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase (0.042984s)
+[2022.03.12-04.19.19:847][205]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2022.03.12-04.19.19:854][205]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2022.03.12-04.19.19:854][205]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.12-04.19.19:854][205]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.12-04.19.19:854][205]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.12-04.19.19:854][205]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.12-04.19.19:854][205]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.12-04.19.19:854][205]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.12-04.19.19:854][205]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.12-04.19.19:854][205]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.12-04.19.19:855][205]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.12-04.19.19:855][205]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.12-04.19.19:855][205]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.12-04.19.19:855][205]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.12-04.19.19:858][205]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.12-04.19.19:858][205]LogAudioMixer: Display: 1: FrontRight
+[2022.03.12-04.19.19:901][205]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2022.03.12-04.19.19:901][205]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.12-04.19.19:901][205]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.12-04.19.19:901][205]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.12-04.19.19:901][205]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.12-04.19.19:901][205]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.12-04.19.19:901][205]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.12-04.19.19:903][205]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.12-04.19.19:903][205]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.12-04.19.19:903][205]LogInit: FAudioDevice initialized.
+[2022.03.12-04.19.19:903][205]LogAudio: Display: Audio Device (ID: 14) registered with world 'LearningKit_Games_Showcase'.
+[2022.03.12-04.19.19:925][205]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.12-04.19.19:925][205]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2022.03.12-04.19.19:947][205]LogWorld: Bringing World /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase up for play (max tick rate 60) at 2022.03.11-22.19.19
+[2022.03.12-04.19.22:530][205]LogWorld: Bringing up level for play took: 2.603113
+[2022.03.12-04.19.22:530][205]LogOnline: OSS: Creating online subsystem instance for: :Context_37
+[2022.03.12-04.19.22:540][205]PIE: Server logged in
+[2022.03.12-04.19.22:541][205]PIE: Play in editor total start time 2.76 seconds.
+[2022.03.12-04.19.22:623][206]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.076565 > MaxSimulationTimeStep (0.050) for 'BP_LearningKit_PlayerCharacter_C_0', movement 'Walking'
+[2022.03.12-04.19.27:438][487]LogCharacterMovement: BP_Enemy20_20 is stuck and failed to move! Velocity: X=-437.92 Y=241.30 Z=0.00 Location: X=-14784.31 Y=-2282.59 Z=4053.08 Normal: X=0.23 Y=-0.60 Z=-0.76 PenetrationDepth:0.370 Actor:BP_Mortar_Bullet_C_173 Component:Sphere BoneName:None (0 other events since notify)
+[2022.03.12-04.19.31:175][706]LogCharacterMovement: BP_Enemy20_20 is stuck and failed to move! Velocity: X=441.57 Y=-234.55 Z=0.00 Location: X=-14486.98 Y=-2428.53 Z=4053.53 Normal: X=-0.35 Y=-0.52 Z=-0.78 PenetrationDepth:6.389 Actor:BP_Mortar_Bullet_C_302 Component:Sphere BoneName:None (3 other events since notify)
+[2022.03.12-04.19.37:473][ 73]LogCharacterMovement: BP_Enemy20_20 is stuck and failed to move! Velocity: X=-441.66 Y=234.38 Z=0.00 Location: X=-14060.90 Y=-2653.64 Z=4053.67 Normal: X=-0.10 Y=-0.74 Z=-0.66 PenetrationDepth:10.892 Actor:BP_Mortar_Bullet_C_527 Component:Sphere BoneName:None (3 other events since notify)
+[2022.03.12-04.19.42:189][348]LogCharacterMovement: BP_Enemy18_10 is stuck and failed to move! Velocity: X=500.00 Y=0.07 Z=0.00 Location: X=-15015.05 Y=-3048.94 Z=4053.54 Normal: X=-0.48 Y=-0.70 Z=-0.53 PenetrationDepth:13.595 Actor:BP_Mortar_Bullet_C_690 Component:Sphere BoneName:None (0 other events since notify)
+[2022.03.12-04.19.42:489][366]LogCharacterMovement: BP_Enemy1_2 is stuck and failed to move! Velocity: X=495.91 Y=-63.82 Z=0.00 Location: X=-1244.73 Y=-2882.65 Z=95.20 Normal: X=-0.55 Y=-0.54 Z=-0.64 PenetrationDepth:2.698 Actor:BP_Mortar_Bullet_C_705 Component:Sphere BoneName:None (0 other events since notify)
+[2022.03.12-04.19.44:653][495]LogCharacterMovement: BP_Enemy1_2 is stuck and failed to move! Velocity: X=191.54 Y=461.86 Z=0.00 Location: X=-726.85 Y=-2280.29 Z=95.20 Normal: X=-0.12 Y=-0.66 Z=-0.75 PenetrationDepth:2.238 Actor:BP_Mortar_Bullet_C_796 Component:Sphere BoneName:None (3 other events since notify)
+[2022.03.12-04.19.48:843][731]LogCharacterMovement: BP_Enemy1_2 is stuck and failed to move! Velocity: X=-499.96 Y=6.24 Z=0.00 Location: X=-1828.84 Y=-1660.89 Z=95.34 Normal: X=0.14 Y=0.56 Z=-0.82 PenetrationDepth:8.557 Actor:BP_Mortar_Bullet_C_952 Component:Sphere BoneName:None (1 other events since notify)
+[2022.03.12-04.19.49:330][759]LogCharacterMovement: BP_Enemy25_28 is stuck and failed to move! Velocity: X=170.88 Y=469.89 Z=0.00 Location: X=21138.41 Y=3394.43 Z=2482.18 Normal: X=0.66 Y=-0.34 Z=-0.67 PenetrationDepth:2.274 Actor:BP_Mortar_Bullet_C_957 Component:Sphere BoneName:None (0 other events since notify)
+[2022.03.12-04.19.49:384][762]LogCharacterMovement: BP_Enemy18_10 is stuck and failed to move! Velocity: X=-499.94 Y=7.87 Z=0.00 Location: X=-14682.99 Y=-3057.19 Z=4053.29 Normal: X=0.68 Y=-0.38 Z=-0.62 PenetrationDepth:21.558 Actor:BP_Mortar_Bullet_C_951 Component:Sphere BoneName:None (0 other events since notify)
+[2022.03.12-04.19.55:128][ 98]LogCharacterMovement: BP_Enemy25_28 is stuck and failed to move! Velocity: X=-465.65 Y=-182.14 Z=0.00 Location: X=20317.84 Y=5025.10 Z=2482.67 Normal: X=0.29 Y=0.43 Z=-0.85 PenetrationDepth:23.181 Actor:BP_Mortar_Bullet_C_1174 Component:Sphere BoneName:None (0 other events since notify)
+[2022.03.12-04.19.57:826][255]LogCharacterMovement: BP_Enemy1_2 is stuck and failed to move! Velocity: X=-499.78 Y=14.96 Z=0.00 Location: X=-1199.02 Y=-1681.02 Z=95.08 Normal: X=0.58 Y=-0.12 Z=-0.81 PenetrationDepth:0.676 Actor:BP_Mortar_Bullet_C_1288 Component:Sphere BoneName:None (0 other events since notify)
+[2022.03.12-04.20.01:780][485]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.12-04.20.01:781][485]LogWorld: BeginTearingDown for /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2022.03.12-04.20.01:781][485]LogSlate: Window 'mp2_2 Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.03.12-04.20.01:790][485]LogWorld: UWorld::CleanupWorld for LearningKit_Games_Showcase, bSessionEnded=true, bCleanupResources=true
+[2022.03.12-04.20.01:794][485]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.12-04.20.01:805][485]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.12-04.20.01:831][485]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.12-04.20.01:861][485]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.12-04.20.01:862][485]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.12-04.20.01:878][485]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2022.03.12-04.20.01:926][486]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2022.03.12-04.20.41:706][740]LogEditor: Attempting to add actor of class 'NavLinkProxy' to level at 4129.37,-15498.63,2048.03
+[2022.03.12-04.20.49:040][143]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume2)
+[2022.03.12-04.20.50:398][222]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume8)
+[2022.03.12-04.20.51:375][278]Cmd: DELETE
+[2022.03.12-04.20.51:375][278]Cmd: ACTOR DELETE
+[2022.03.12-04.20.51:384][278]LogEditorActor: Deleted Actor: NavMeshBoundsVolume
+[2022.03.12-04.20.51:406][278]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2022.03.12-04.20.51:417][278]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2022.03.12-04.21.04:552][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2022.03.12-04.21.04:685][ 47]LogSavePackage: Moving '../../../../mp2_2/Saved/LearningKit_Games_Showcase55B38AC04473CFAFD83FD79EB2D040F9.tmp' to '../../../../mp2_2/Content/LearningKit_Games/Maps/LearningKit_Games_Showcase.umap'
+[2022.03.12-04.21.04:715][ 47]AssetCheck: New page: Asset Save: LearningKit_Games_Showcase
+[2022.03.12-04.21.04:715][ 47]LogContentValidation: Display: Validating World /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase
+[2022.03.12-04.21.06:161][133]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.03.12-04.21.06:169][133]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.12-04.21.06:169][133]PIE: New page: PIE session: LearningKit_Games_Showcase (2022年3月11日 下午4:21:06)
+[2022.03.12-04.21.06:169][133]LogPlayLevel: Creating play world package: /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2022.03.12-04.21.06:204][133]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034628s)
+[2022.03.12-04.21.06:205][133]LogAIModule: Creating AISystem for world LearningKit_Games_Showcase
+[2022.03.12-04.21.06:206][133]LogPlayLevel: PIE: World Init took: (0.001651s)
+[2022.03.12-04.21.06:206][133]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase to /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase (0.036522s)
+[2022.03.12-04.21.06:228][133]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2022.03.12-04.21.06:229][133]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2022.03.12-04.21.06:229][133]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.12-04.21.06:229][133]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.12-04.21.06:229][133]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.12-04.21.06:229][133]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.12-04.21.06:229][133]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.12-04.21.06:229][133]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.12-04.21.06:229][133]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.12-04.21.06:229][133]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.12-04.21.06:230][133]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.12-04.21.06:230][133]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.12-04.21.06:230][133]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.12-04.21.06:230][133]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.12-04.21.06:232][133]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.12-04.21.06:232][133]LogAudioMixer: Display: 1: FrontRight
+[2022.03.12-04.21.06:273][133]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2022.03.12-04.21.06:274][133]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.12-04.21.06:274][133]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.12-04.21.06:274][133]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.12-04.21.06:274][133]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.12-04.21.06:274][133]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.12-04.21.06:274][133]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.12-04.21.06:276][133]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.12-04.21.06:276][133]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.12-04.21.06:276][133]LogInit: FAudioDevice initialized.
+[2022.03.12-04.21.06:276][133]LogAudio: Display: Audio Device (ID: 15) registered with world 'LearningKit_Games_Showcase'.
+[2022.03.12-04.21.06:306][133]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.12-04.21.06:306][133]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2022.03.12-04.21.06:331][133]LogWorld: Bringing World /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase up for play (max tick rate 60) at 2022.03.11-22.21.06
+[2022.03.12-04.21.08:708][133]LogWorld: Bringing up level for play took: 2.400707
+[2022.03.12-04.21.08:708][133]LogOnline: OSS: Creating online subsystem instance for: :Context_38
+[2022.03.12-04.21.08:717][133]PIE: Server logged in
+[2022.03.12-04.21.08:719][133]PIE: Play in editor total start time 2.551 seconds.
+[2022.03.12-04.21.08:780][134]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.076564 > MaxSimulationTimeStep (0.050) for 'BP_LearningKit_PlayerCharacter_C_0', movement 'Walking'
+[2022.03.12-04.21.11:954][320]LogCharacterMovement: BP_Enemy1_2 is stuck and failed to move! Velocity: X=-487.94 Y=0.74 Z=0.00 Location: X=-574.08 Y=-1660.56 Z=95.30 Normal: X=0.36 Y=0.57 Z=-0.74 PenetrationDepth:3.718 Actor:BP_Mortar_Bullet_C_104 Component:Sphere BoneName:None (0 other events since notify)
+[2022.03.12-04.21.27:571][235]LogCharacterMovement: BP_Enemy1_2 is stuck and failed to move! Velocity: X=33.83 Y=-4.58 Z=0.00 Location: X=-1898.31 Y=-2790.23 Z=96.02 Normal: X=-0.11 Y=0.11 Z=-0.99 PenetrationDepth:34.191 Actor:BP_Mortar_Bullet_C_660 Component:Sphere BoneName:None (2 other events since notify)
+[2022.03.12-04.21.31:403][462]LogCharacterMovement: BP_Enemy1_2 is stuck and failed to move! Velocity: X=189.83 Y=458.71 Z=0.00 Location: X=-673.14 Y=-2157.19 Z=95.12 Normal: X=-0.14 Y=-0.66 Z=-0.74 PenetrationDepth:1.507 Actor:BP_Mortar_Bullet_C_814 Component:Sphere BoneName:None (0 other events since notify)
+[2022.03.12-04.21.36:789][780]LogCharacterMovement: BP_Enemy27_34 is stuck and failed to move! Velocity: X=436.59 Y=243.70 Z=0.00 Location: X=15599.39 Y=-9971.57 Z=5741.63 Normal: X=0.16 Y=-0.39 Z=-0.91 PenetrationDepth:9.425 Actor:BP_Mortar_Bullet_C_1025 Component:Sphere BoneName:None (0 other events since notify)
+[2022.03.12-04.21.37:690][833]LogCharacterMovement: BP_Enemy25_28 is stuck and failed to move! Velocity: X=165.25 Y=471.90 Z=0.00 Location: X=21501.74 Y=4389.40 Z=2482.25 Normal: X=0.60 Y=-0.27 Z=-0.76 PenetrationDepth:16.025 Actor:BP_Mortar_Bullet_C_1036 Component:Sphere BoneName:None (0 other events since notify)
+[2022.03.12-04.21.40:939][ 25]LogCharacterMovement: BP_Enemy17_5 is stuck and failed to move! Velocity: X=-183.51 Y=-435.99 Z=0.00 Location: X=-1360.30 Y=9727.72 Z=-1702.26 Normal: X=0.56 Y=0.39 Z=-0.73 PenetrationDepth:11.770 Actor:BP_Mortar_Bullet_C_1161 Component:Sphere BoneName:None (0 other events since notify)
+[2022.03.12-04.21.45:349][284]LogCharacterMovement: BP_Enemy20_20 is stuck and failed to move! Velocity: X=-441.54 Y=234.61 Z=0.00 Location: X=-13567.39 Y=-2914.98 Z=4053.03 Normal: X=0.88 Y=-0.30 Z=-0.37 PenetrationDepth:17.656 Actor:BP_Mortar_Bullet_C_1303 Component:Sphere BoneName:None (0 other events since notify)
+[2022.03.12-04.21.45:793][310]LogCharacterMovement: BP_Enemy1_2 is stuck and failed to move! Velocity: X=-19.49 Y=-499.62 Z=0.00 Location: X=-1856.15 Y=-1715.69 Z=95.16 Normal: X=-0.10 Y=0.53 Z=-0.84 PenetrationDepth:10.213 Actor:BP_Mortar_Bullet_C_1345 Component:Sphere BoneName:None (0 other events since notify)
+[2022.03.12-04.21.47:108][387]LogCharacterMovement: BP_Enemy20_20 is stuck and failed to move! Velocity: X=-441.72 Y=234.28 Z=0.00 Location: X=-14337.24 Y=-2504.93 Z=4053.36 Normal: X=0.60 Y=-0.34 Z=-0.72 PenetrationDepth:4.595 Actor:BP_Mortar_Bullet_C_1388 Component:Sphere BoneName:None (2 other events since notify)
+[2022.03.12-04.21.55:580][880]LogBlueprintUserMessages: [PowerUp_Pickup_BP_Child3_8] Item collected
+[2022.03.12-04.21.58:864][ 71]LogCharacterMovement: BP_Enemy27_34 is stuck and failed to move! Velocity: X=36.53 Y=-5.10 Z=0.00 Location: X=15613.86 Y=-9828.15 Z=5743.15 Normal: X=0.43 Y=-0.41 Z=-0.80 PenetrationDepth:1.884 Actor:BP_Mortar_Bullet_C_1842 Component:Sphere BoneName:None (0 other events since notify)
+[2022.03.12-04.22.03:125][320]LogCharacterMovement: BP_Enemy18_10 is stuck and failed to move! Velocity: X=-499.93 Y=8.09 Z=0.00 Location: X=-14728.27 Y=-3056.76 Z=4053.04 Normal: X=0.25 Y=-0.74 Z=-0.62 PenetrationDepth:19.795 Actor:BP_Mortar_Bullet_C_1964 Component:Sphere BoneName:None (0 other events since notify)
+[2022.03.12-04.22.03:395][336]LogCharacterMovement: BP_Enemy27_34 is stuck and failed to move! Velocity: X=138.31 Y=-15.94 Z=0.00 Location: X=15625.25 Y=-9832.42 Z=5741.06 Normal: X=-0.26 Y=0.31 Z=-0.91 PenetrationDepth:8.524 Actor:BP_Mortar_Bullet_C_2007 Component:Sphere BoneName:None (3 other events since notify)
+[2022.03.12-04.22.07:959][604]LogCharacterMovement: BP_Enemy25_28 is stuck and failed to move! Velocity: X=499.36 Y=-25.26 Z=0.00 Location: X=20481.88 Y=3099.75 Z=2482.19 Normal: X=-0.14 Y=-0.42 Z=-0.90 PenetrationDepth:23.807 Actor:BP_Mortar_Bullet_C_2145 Component:Sphere BoneName:None (3 other events since notify)
+[2022.03.12-04.22.09:993][724]LogCharacterMovement: BP_Enemy17_5 is stuck and failed to move! Velocity: X=-212.68 Y=-452.51 Z=0.00 Location: X=-1904.89 Y=8576.65 Z=-1702.73 Normal: X=0.80 Y=-0.32 Z=-0.51 PenetrationDepth:4.825 Actor:BP_Mortar_Bullet_C_2212 Component:Sphere BoneName:None (0 other events since notify)
+[2022.03.12-04.22.12:136][850]LogCharacterMovement: BP_Enemy18_10 is stuck and failed to move! Velocity: X=-500.00 Y=0.01 Z=0.00 Location: X=-14579.59 Y=-3047.24 Z=4053.08 Normal: X=0.88 Y=-0.15 Z=-0.45 PenetrationDepth:1.141 Actor:BP_Mortar_Bullet_C_2291 Component:Sphere BoneName:None (5 other events since notify)
+[2022.03.12-04.22.22:185][437]LogCharacterMovement: BP_Enemy27_34 is stuck and failed to move! Velocity: X=436.67 Y=243.56 Z=0.00 Location: X=15460.72 Y=-10048.49 Z=5741.27 Normal: X=-0.40 Y=-0.07 Z=-0.91 PenetrationDepth:10.921 Actor:BP_Mortar_Bullet_C_2685 Component:Sphere BoneName:None (1 other events since notify)
+[2022.03.12-04.22.26:104][665]LogBlueprintUserMessages: [Collectable_Pickup_BP5_2] Collectable
+[2022.03.12-04.22.26:439][684]LogCharacterMovement: BP_LearningKit_PlayerCharacter_C_0 is stuck and failed to move! Velocity: X=45.20 Y=798.72 Z=0.00 Location: X=21000.66 Y=4104.81 Z=2482.80 Normal: X=0.49 Y=-0.09 Z=-0.87 PenetrationDepth:8.873 Actor:BP_Mortar_Bullet_C_2841 Component:Sphere BoneName:None (0 other events since notify)
+[2022.03.12-04.22.28:938][830]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2022.03.12-04.22.28:939][830]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2022.03.12-04.22.29:808][881]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2022.03.12-04.22.29:808][881]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2022.03.12-04.22.29:809][881]LogNet: Browse: /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase
+[2022.03.12-04.22.29:809][881]LogLoad: LoadMap: /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase
+[2022.03.12-04.22.29:809][881]LogWorld: BeginTearingDown for /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2022.03.12-04.22.29:811][881]LogWorld: UWorld::CleanupWorld for LearningKit_Games_Showcase, bSessionEnded=true, bCleanupResources=true
+[2022.03.12-04.22.29:814][881]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.12-04.22.29:870][881]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.03.12-04.22.29:890][881]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2022.03.12-04.22.29:895][881]LogPlayLevel: Creating play world package: /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2022.03.12-04.22.29:930][881]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035361s)
+[2022.03.12-04.22.29:932][881]LogAIModule: Creating AISystem for world LearningKit_Games_Showcase
+[2022.03.12-04.22.29:933][881]LogPlayLevel: PIE: World Init took: (0.002138s)
+[2022.03.12-04.22.29:933][881]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase to /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase (0.037761s)
+[2022.03.12-04.22.29:933][881]LogAudio: Display: Audio Device (ID: 15) registered with world 'LearningKit_Games_Showcase'.
+[2022.03.12-04.22.29:933][881]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2022.03.12-04.22.29:944][881]LogWorld: Bringing World /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase up for play (max tick rate 60) at 2022.03.11-22.22.29
+[2022.03.12-04.22.32:291][881]LogWorld: Bringing up level for play took: 2.356933
+[2022.03.12-04.22.32:300][881]LogLoad: Took 2.490572 seconds to LoadMap(/Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase)
+[2022.03.12-04.22.32:317][882]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.076845 > MaxSimulationTimeStep (0.050) for 'BP_LearningKit_PlayerCharacter_C_0', movement 'Walking'
+[2022.03.12-04.22.34:361][997]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.12-04.22.34:361][997]LogWorld: BeginTearingDown for /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2022.03.12-04.22.34:362][997]LogSlate: Window 'mp2_2 Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.03.12-04.22.34:370][997]LogWorld: UWorld::CleanupWorld for LearningKit_Games_Showcase, bSessionEnded=true, bCleanupResources=true
+[2022.03.12-04.22.34:374][997]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.12-04.22.34:383][997]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.12-04.22.34:389][997]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.12-04.22.34:415][997]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.12-04.22.34:416][997]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.12-04.22.34:427][997]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2022.03.12-04.22.34:464][998]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2022.03.12-04.29.30:845][728]LogEditorViewport: Clicking on Actor (LMB): NiagaraActor (VFX_MeshClouds_Base7)
